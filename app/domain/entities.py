@@ -11,7 +11,7 @@ class QRCodeSpec:
     text: str
     width: int
     height: int
-    margin: int = 4
+    margin: int = 1
     fill_color: str = "#000000"
     background_color: str = "#FFFFFF"
     error_correction: ErrorCorrection = "M"
